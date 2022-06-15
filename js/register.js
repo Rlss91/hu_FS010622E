@@ -36,7 +36,7 @@ function handleSubmit(ev) {
     price *= 1.3; // price = price * 1.3;
   }
   if (age >= 40 && age <= 59) {
-    price *= 1.2; // price = price * 1.3;
+    price *= 1.2; // price = price * 1.2;
   }
   price *= maam;
   console.log("you have to pay: " + price);
