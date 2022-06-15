@@ -37,4 +37,9 @@ function handleSubmit(ev) {
   //       break;
   //   }
   console.log("you have to pay: " + price);
+  let alertMsg = "your name is: " + firstname;
+  alertMsg += "\nyour lastname is: " + lastname; // alertMsg = alertMsg + "your lastname is: " + lastname;
+  alertMsg += "\nyour age is: " + age;
+  alertMsg += "\nyou have to pay: " + price;
+  alert(alertMsg);
 }
