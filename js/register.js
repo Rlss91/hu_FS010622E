@@ -22,5 +22,19 @@ function handleSubmit(ev) {
   if (area == "Lowland") {
     price = basePrice * 1.3 * maam;
   }
+  //   switch (area) {
+  //     case "South":
+  //       price = basePrice * maam;
+  //       break;
+  //     case "Center":
+  //       price = basePrice * 1.5 * maam;
+  //       break;
+  //     case "North":
+  //       price = basePrice * 1.2 * maam;
+  //       break;
+  //     case "Lowland":
+  //       price = basePrice * 1.3 * maam;
+  //       break;
+  //   }
   console.log("you have to pay: " + price);
 }
