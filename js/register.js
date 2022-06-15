@@ -1,9 +1,9 @@
 function handleSubmit(ev) {
   ev.preventDefault(); //stop refresh
-  let firstname = document.getElementById("nameInput").value;
-  let lastname = document.getElementById("lastNameInput").value;
-  let age = document.getElementById("ageInput").value;
-  let area = document.getElementById("areasInput").value;
+  let firstname = document.getElementById("nameInput").value; //take the data from html and store it in variable
+  let lastname = document.getElementById("lastNameInput").value; //take the data from html and store it in variable
+  let age = document.getElementById("ageInput").value; //take the data from html and store it in variable
+  let area = document.getElementById("areasInput").value; //take the data from html and store it in variable
   let price;
   const basePrice = 1000;
   const maam = 1.17;
@@ -30,7 +30,7 @@ function handleSubmit(ev) {
         lastname +
         " man you are not allowed to register!"
     );
-    return;
+    return; //stop here the function
   }
   if (age >= 18 && age <= 39) {
     price *= 1.3; // price = price * 1.3;
