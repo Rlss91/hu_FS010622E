@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(68, 188, 152);
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+label,
+input,
+button,
+select {
+  font-size: 1rem;
+}
+
+button {
+  background-color: blue;
+  color: wheat;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudentProject - new student</title>
+    <link rel="stylesheet" href="./css/register.css" />
+    <script src="./js/register.js"></script>
+  </head>
+  <body>
+    <h1>Register new studant</h1>
+    <form id="studentForm" onsubmit="handleSubmit(event)">
+      <label for="nameInput">Name:</label>
+      <input type="text" name="nameInput" id="nameInput" />
+      <br />
+      <label for="lastNameInput">Lastname:</label>
+      <input type="text" name="lastNameInput" id="lastNameInput" />
+      <br />
+      <label for="ageInput">Age:</label>
+      <input type="number" name="ageInput" id="ageInput" />
+      <br />
+      <label for="areasInput">Areas:</label>
+      <select name="areasInput" id="areasInput">
+        <option value="South">South</option>
+        <option value="Center">Center</option>
+        <option value="North">North</option>
+        <option value="Lowland">Lowland</option>
+      </select>
+      <br />
+      <button>submit</button>
+    </form>
+  </body>
+</html>
